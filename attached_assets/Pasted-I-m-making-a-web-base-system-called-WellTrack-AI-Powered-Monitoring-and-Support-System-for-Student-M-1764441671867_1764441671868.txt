@@ -1,0 +1,87 @@
+I'm making a web base system called WellTrack AI-Powered Monitoring and Support System for Student Mental Health and Wellness with this key functions 
+
+
+Student Dashboard – Allows students to log daily moods or stress levels through simple emojis or scales.
+Admin Dashboard – Displays wellness summaries, emotional trends, and AI-generated alerts for at-risk students.
+AI Predictive Analytics – Detects behavioral and emotional patterns to identify students who may be struggling.
+Secure MySQL Database – Ensures protected logins and organized data management for student privacy and safety.
+
+now this is our paper
+
+Abstract—This electronic document is a “live” template and already defines the components of your paper [title, text, heads, etc.] in its style sheet.  *CRITICAL:  Do Not Use Symbols, Special Characters, Footnotes, or Math in Paper Title or Abstract. (Abstract) 
+
+Keywords—component, formatting, style, styling, insert (key words) 
+
+Introduction  
+
+ 
+
+            Mental health literacy is a fundamental component of supporting student wellbeing, as it enables individuals to recognize symptoms, reduce stigma, and seek appropriate care. Kutcher, Wei, and Coniglio [1] emphasize that enhancing mental health literacy empowers young people to better understand and manage psychological challenges. In higher education, this need is particularly pronounced, as Galvão and Liébana [2] highlight the increasing prevalence of mental health concerns among university students and the importance of fostering awareness and coping strategies to address these challenges effectively. 
+
+ 
+
+         Research indicates that multiple factors influence student mental health. Yang [3] identifies academic pressure, social relationships, and lifestyle habits as significant contributors to psychological distress, while Sui [4] underscores the role of environmental and adaptation challenges in shaping students’ mental wellbeing. These findings suggest that student mental health is affected by a complex interplay of personal, social, and academic factors, highlighting the necessity of timely support and interventions to prevent escalation of stress, anxiety, and other mental health issues.  
+
+ 
+
+        In the digital era, online resources have become an important avenue for mental health support. Chen et al.[5] note that seeking mental health information online can mediate improvements in wellbeing, demonstrating the potential of technology-driven solutions. Building on these  
+
+insights, this research introduces WellTrack, an AI-powered monitoring and support system designed to enhance student mental health and wellness. WellTrack integrates real-time monitoring, machine learning analytics, and personalized interventions to detect early signs of distress, guide students to appropriate support, and promote healthier, more supportive learning environments. 
+
+ 
+
+Related Works 
+
+Research examining student mental health has revealed that a great majority of adolescents deal with the difficulties caused by stress, anxiety, and emotional issues, but at the same time, a lot of them do not seek therapy. Broglia, Millings, and Barkham [6] conducted research on university students and discovered that students who manifest clear signs of distress still do not seek help due to stigma, cost, or uncertainty about whether their symptoms are “serious enough.” The method used by them was surveyed to detect students' experiences, which ultimately revealed that the greater part of the students waits for their situation to become out of control before seeking help. This situation reflects how early detection and support can be critical, particularly in the case of systems that encourage students to keep track of their emotional states through regular checks. These results highlight the necessity of supporting technologies like WellTrack, which would enable students to identify their feelings and know when to ask for help. 
+
+ 
+
+Coming to a more comprehensive perspective of global student mental health, Bantjes, Hunt, and Stein [7] published a review of international studies that showed anxiety, depression, and suicidal thoughts, among other issues, to be prevalent among university students. A few of the studies they analyzed mentioned that around 30% to 37% of students suffer from mood or anxiety disorders. Despite this, the researchers insisted that calling the situation a “crisis” could be misleading. The conceptualization of normal stress as illness could be one of the consequences of this. Additionally, students might get the impression that they are more vulnerable than they really are. A balanced approach that accommodates both risks and resilience was proposed by them. Their suggestion endorses the contention that mental health services should not only be problem-oriented but also the ones that help students understand their normal challenges and manage them—the very purpose that WellTrack intends to achieve through its personal feedback and educational reminders. 
+
+Technology has a significant impact on the modern mental health support sector. Gopalakrishnan, Gururajan, Zhou, Venkataraman, Chan, and Higgins [8] reviewed the automatic mental health monitoring systems, making it clear that smartphones together with AI can track people's daily activities to spot symptoms of stress, anxiety, or depression at an early stage. To illustrate, changes in sleep, movement, or social interaction are signs of emotional discomfort. The review outlined the main stages of the system, including collecting data, analyzing it with machine learning, and giving feedback to the user. However, the authors pointed out the problems of data privacy, accuracy of AI models, and user comprehension of how the system works. The results indicated that AI systems like WellTrack could provide students with support more regularly than traditional methods, provided they stick to the ethical and transparent guidelines. 
+
+The necessity for comprehensible AI was pointed out by Joyce, Kormilitzin, Smith, and Cipriani [9], who specified the need for transparency and interpretability in mental health technologies. They described that many AI models act like “black boxes,” leaving users unsure how the systems arrive at their decisions. Thus, they offered a framework that motivates developers to design AI systems that provide clear explanations about how the input data produces the outputs. For instance, in the case of an app that signals high stress, it should specify which behaviors or patterns were responsible for the signal. This is particularly true for WellTrack, where students need to be both confident and secure about the mental health-related information they receive. 
+
+Lee, Goh, and Yeo [10] studied mental health awareness among students and found that knowledge about mental health, knowledge of professional help, and attitudes toward mental illness all influence how likely students are to seek support. Their findings show that improving awareness can encourage healthier behaviors, such as reaching out early or recognizing symptoms. This supports the use of WellTrack’s educational content and daily check-ins, which help students build mental health awareness alongside real-time monitoring. 
+
+             Recent research further supports the importance of integrating artificial intelligence into student mental health systems. Bohr and Memarzadeh [11] emphasized that AI technologies in healthcare are increasingly capable of supporting early detection, continuous monitoring, and personalized interventions. Their work explains how AI-driven systems can analyze behavioral patterns and predict emerging health issues before they escalate, which is precisely the type of proactive approach that platforms like WellTrack aim to deliver. By automating routine assessments and providing personalized feedback, WellTrack follows the same principle of early intervention highlighted in their study. 
+
+ 
+
+       A similar emphasis appears in DiPlacito-DeRango’s [12] exploration of mental health support in Canadian post-secondary institutions. Their research revealed that instructors often play a crucial role in recognizing early signs of student distress, yet institutional systems are not always designed to support consistent monitoring. This gap indicates the need for structured, technology-driven support systems to complement human observation. WellTrack’s goal of helping students track their emotions and seek help sooner directly aligns with DiPlacito-DeRango’s conclusion that timely, accessible, and systematic mental health support is essential in preventing crises. 
+
+ 
+
+         Furthermore, Higgins, Short, Chalup, and Wilson [13] provide insights that are highly relevant to systems like WellTrack. Their review noted that while AI and machine learning tools show promise in mental health decision support, users often hesitate to rely on them due to concerns about transparency, confidence, and understanding how the system works. These findings highlight the importance of designing mental-health technologies that clearly explain their feedback and help users understand how mood patterns or risk signals are generated. WellTrack aligns with these recommendations because it offers guided check-ins and easy-to-understand feedback that helps students make sense of their emotional trends. By emphasizing clarity and user trust, WellTrack responds directly to the challenges identified in Higgins et al.’s review, showing how AI-supported mental health tools can be used responsibly and effectively in student populations. 
+
+ 
+
+          In conclusion, the reviewed studies consistently show that students face high levels of stress and emotional difficulties but often delay seeking help due to stigma, uncertainty, and limited mental health awareness. Research on AI and digital tools highlights their potential to support early detection and self-monitoring, if they are transparent, ethical, and easy to understand. This directly supports the purpose of the WellTrack AI-Powered Monitoring and Support System, which is designed to offer continuous monitoring, personalized guidance, and educational tools that help students identify concerns earlier and reach out for help when needed. 
+
+ 
+
+ 
+
+ 
+
+METHODOLOGY 
+
+This section presents the methodological foundation for the development of the WellTrack AI-Powered Monitoring and Support System for Student Mental Health and Wellness, describing the system’s conceptual framework, structural components, and development approach. It outlines how the SCRUM methodology and the selected website framework work together to guide the design, implementation, and refinement of the platform. 
+
+The researchers highlight that this portion establishes the groundwork for all subsequent development phases by providing a comprehensive overview of the system model and architecture. Through this discussion, readers gain a clear understanding of the technological infrastructure, workflow, and iterative processes essential in achieving the objectives of providing effective monitoring and support for student mental health. 
+
+ 
+
+ 
+
+Fig. 1. Agile–SCRUM Development Framework for WellTrack 
+
+ 
+
+Figure 1 illustrates the iterative and cyclical processes involved in the SCRUM Methodology used in developing the WellTrack AI-Powered Monitoring and Support System. The diagram emphasizes the continuous flow of activities beginning from planning and design, moving toward development and testing, and progressing through deployment, review, and launch.  
+
+The figure demonstrates how the planning stage initiates the sprint by identifying prioritized tasks and system requirements. This is followed by the design and development stages, where the system’s essential modules, interfaces, and AI functionalities are created. The testing phase ensures that each increment meets quality standards before proceeding to deployment. A review is then conducted to assess the output of the sprint, collect feedback, and identify areas for improvement. Finally, the launch stage represents the release of usable product increments to users, completing the cycle. 
+
+ 
+
+ base on this i want you to help me make a step by step workflow from coding which libraries and frameworks to use and to deploy it 

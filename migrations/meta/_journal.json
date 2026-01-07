@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1767739530752,
+      "tag": "0000_powerful_pestilence",
+      "breakpoints": true
+    }
+  ]
+}
