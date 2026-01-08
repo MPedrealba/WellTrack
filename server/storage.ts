@@ -18,7 +18,7 @@ import {
 import { db } from "./db";
 import { eq, desc, and, sql, gte, ne } from "drizzle-orm";
 import { subDays, startOfDay } from "date-fns";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 export interface IStorage {
   // User operations for local authentication
