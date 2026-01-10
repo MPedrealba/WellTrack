@@ -189,7 +189,7 @@ export default function AdminDashboard() {
                   {statsLoading ? (
                     <Skeleton className="h-8 w-12" />
                   ) : (
-                    stats?.avgMood?.toFixed(1) || "N/A"
+                    Number(stats?.avgMood || 0).toFixed(1)
                   )}
                 </p>
               </div>
@@ -264,7 +264,7 @@ export default function AdminDashboard() {
                     dataKey="value"
                     nameKey="name"
                     label={({ name, percent }) =>
-                      `${name} ${(percent * 100).toFixed(0)}%`
+                      `${name} ${(Number(percent || 0) * 100).toFixed(0)}%`
                     }
                     labelLine={false}
                   >

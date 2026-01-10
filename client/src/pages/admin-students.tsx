@@ -185,8 +185,8 @@ export default function AdminStudents() {
                       </TableCell>
                       <TableCell>
                         <div className="flex items-center gap-1">
-                          {getMoodEmoji(Math.round(student.avgMood))}
-                          <span className="text-sm">{student.avgMood.toFixed(1)}</span>
+                          {getMoodEmoji(Math.round(Number(student.avgMood || 0)))}
+                          <span className="text-sm">{Number(student.avgMood || 0).toFixed(1)}</span>
                         </div>
                       </TableCell>
                       <TableCell>
